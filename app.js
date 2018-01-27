@@ -9,13 +9,13 @@ function cars(){
 	var car3 = "Mazda";
 
 	//Create an array declaration named cars and set each car variable as the values.
-
+		var cars = [car1, car2, car3]
 	//Print the created array
-
+		console.log(cars)
 	//Print the array length
-
+		console.log(cars.length)	
 	//Return the created array and the array length
-	return;
+	return cars + " " + cars.length;
 }
 
 console.log(cars());
